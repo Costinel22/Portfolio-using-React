@@ -1,0 +1,15 @@
+.projects {
+    /* min-height: 100px; */
+    background: #7da87e;
+    position: relative;
+}
+
+.projects span {
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* left: 0; */
+    /* right: 0; */
+    padding: 3px;
+    background: #0a0a1b;
+    color: bisque;
+}

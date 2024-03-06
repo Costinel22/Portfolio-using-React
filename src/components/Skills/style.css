@@ -1,0 +1,15 @@
+.skills {
+    min-height: 100px;
+    background: #1a2e69;
+    position: relative;
+}
+
+.skills span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 3px;
+    background: #0a0a1b;
+    color: bisque;
+}
