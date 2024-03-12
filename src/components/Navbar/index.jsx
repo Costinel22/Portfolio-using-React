@@ -23,27 +23,6 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
-            {/* <li className="nav-item">
-              <NavLink
-                to="/"
-                end
-                className={({ isActive }) =>
-                  isActive ? 'nav-link active' : 'nav-link'
-                }
-              >
-                About
-              </NavLink>
-            </li> */}
-            <li className="nav-item">
-              <NavLink
-                to="/discover"
-                className={({ isActive }) =>
-                  isActive ? 'nav-link active' : 'nav-link'
-                }
-              >
-                Discover
-              </NavLink>
-              </li>
               <li className="nav-item">
               <NavLink
                 to="/projects"
