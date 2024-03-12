@@ -6,8 +6,9 @@ import CV from './components/CV';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Wrapper from './components/Wrapper';
-import Projects from './components/Projects';
+import Projects from './components/ProjectsG';
 import AboutMe from './components/AboutMe/AboutMe';
+
 
 
 function App() {
