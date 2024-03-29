@@ -22,10 +22,13 @@ function Projects() {
   
   return (
       <div >
-        <Container>
+        <Container style={{}}>
           {data.map((item, index) => (
         <div key={index}>
-            <h2>{item.name}</h2>
+            <h2 style={{color:"black"}}>{item.name}</h2>
+            <div>
+            <img src={item.image} alt={item.name} style={{width:240 ,color:"black"}}/>
+          </div>  
             <ul>
               <li>
                   <a href={item.URL}>Project Link</a>
@@ -34,9 +37,7 @@ function Projects() {
                   <a href={item.gitHubURL}>GitHub Link</a>
               </li>
             </ul>
-          <div>
-            <img src={item.image} alt={item.name} style={{width:240}}/>
-          </div>    
+          <br />  
         </div>
       ))}
         </Container>

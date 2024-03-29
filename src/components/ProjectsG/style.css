@@ -11,5 +11,9 @@
     right: 0;
     padding: 3px;
     background: #0a0a1b;
-    color: bisque;
+    color: rgb(4, 2, 0);
+}
+
+h2 {
+    color: #0a0a1b;
 }

@@ -1,10 +1,15 @@
 import React from "react";
 import "./style.css";
+import myCv from "../../image/CV. COSTINEL-M.pdf"
 
 function CV() {
+  const openCv = () => {
+    window.open(myCv);
+  };
   return (
     <div className="cv">
-      <span>Portfolio React 2024</span>
+       <button onClick={openCv}>Open CV</button>;
+      <a href={myCv} target="_blank">Open PDF</a>
     </div>
   );
 }

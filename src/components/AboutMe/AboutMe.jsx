@@ -7,7 +7,7 @@ import myAvatar from '../../image/me.jpg';
 function AboutMe() {
   return (
     <div>
-      <Container style={{ marginTop: 30}}>
+      <Container style={{ marginTop: 30}} id="aboutMe">
         <Row size="md-12 just">
           <Col size="md-6 just">
             <h1>Hello, I am a Web Developrer whit JavaScript.</h1>

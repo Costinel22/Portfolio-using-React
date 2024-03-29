@@ -15,7 +15,7 @@ function Footer() {
       </section>
       <section>
         <ul>
-      <a href="https://mail.yahoo.com">Email</a>
+      <a  href="https://mail.yahoo.com">Email</a>
       <br />
       <a href="tel:+1234567890">Call Uk: +1 234-567-890</a>
       </ul>

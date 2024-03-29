@@ -2,19 +2,19 @@
         "name": "Bootstrap-Portfolio",
         "URL": "https://costinel22.github.io/Bootstrap-Portfolio/",
         "gitHubURL": "https://github.com/Costinel22/Bootstrap-Portfolio",
-        "image": "https://www.freepik.com/free-photo/bright-petals-gift-love-bouquet-generated-by-ai_41147284.htm#query=royalty%20free&position=42&from_view=keyword&track=ais&uuid=fc92ceba-63ca-457a-8100-fac0a63c5dad"
+        "image": "../src/image/top-page.png"
     },
     {
         "name": "Console-Finances",
         "URL": "",
         "gitHubURL": "https://github.com/Costinel22/Console-Finances",
-        "image": "../components/image/top-page.png"
+        "image": "./avatar.jpg"
     },
     {
         "name": "README-generator",
         "URL": "",
         "gitHubURL": "https://github.com/Costinel22/README-generator",
-        "image": "../components/image/top-page.png"
+        "image": "../src/image/coffe.jpg"
     },
     {
         "name": "Organised-work-day-scheduler",
