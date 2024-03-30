@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import myCv from "../../image/CV. COSTINEL-M.pdf"
+import myCv from "../../image/CV-Costinel_Malaiasi.pdf"
 
 function CV() {
   const openCv = () => {
@@ -8,7 +8,7 @@ function CV() {
   };
   return (
     <div className="cv">
-       <button onClick={openCv}>Open CV</button>;
+      <button onClick={openCv}>Open CV</button>;
       <a href={myCv} target="_blank">Open PDF</a>
     </div>
   );
