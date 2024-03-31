@@ -1,13 +1,14 @@
 import React from 'react';
 import Hero from '../components/Hero';
-import myHero from '../image/herro.jpg'
+import myHero from '../image/herro2.jpg'
 import './style.css'
 import Row from '../components/Row'
 import Col from '../components/Col'
 import Container from '../components/Container';
-import myAvatar from '../image/me.jpg';
-import { GrGithub, GrHtml5, GrCss3, GrReactjs } from "react-icons/gr";
-import { TbApi, TbBrandNodejs } from "react-icons/tb";
+import myAvatar from '../image/avatar2.png';
+import { GrGithub, GrHtml5, GrCss3, GrReactjs, GrGrommet } from "react-icons/gr";
+import { TbApi, TbBrandNodejs, TbJson } from "react-icons/tb";
+import { FaBootstrap } from "react-icons/fa";
 
 
 function About() {
@@ -22,7 +23,7 @@ function About() {
               <h4><a href="https://github.com/Costinel22">GitHub</a></h4>
             </Col>
             <Col size="md-4 just">
-              <img src={myAvatar} alt="My Image avatar" style={{ marginTop: '10%', width: '50%', maxWidth: 200 }} />
+              <img src={myAvatar} alt="My Image avatar" style={{ marginTop: '10%', width: '70%', maxWidth: 200 }} />
             </Col>
           </Row>
         </Container>
@@ -36,16 +37,44 @@ function About() {
         <div>
           <Container>
             <p>In the projects presented on the projects page, we have different technologies and languages used, for example!</p>
-            <Container direction="row">
-              <GrGithub style={{ marginRight: '40px' }} color="black" size="60px" />
-              <GrHtml5 style={{ marginRight: '40px' }} color="black" size="60px" />
-              <GrCss3 style={{ marginRight: '40px' }} color="black" size="60px" />
-              <GrReactjs style={{ marginRight: '40px' }} color="black" size="60px" />
-              <TbApi style={{ marginRight: '40px' }} color="black" size="60px" />
-              <TbBrandNodejs style={{ marginRight: '40px' }} color="black" size="60px" />
-              <GrReactjs style={{ marginRight: '40px' }} color="black" size="60px" />
-              <GrReactjs style={{ marginRight: '40px' }} color="black" size="60px" />
-            </Container>
+            <Container direction="row" style={{ display: 'flex', flexDirection: 'row' }}>
+  <div style={{ marginRight: '40px', textAlign: 'center' }}>
+    <GrGithub color="black" size="60px" />
+    <p>Github</p>
+  </div>
+  <div style={{ marginRight: '40px', textAlign: 'center' }}>
+    <GrHtml5 color="black" size="60px" />
+    <p>HTML5</p>
+  </div>
+  <div style={{ marginRight: '40px', textAlign: 'center' }}>
+    <GrCss3 color="black" size="60px" />
+    <p>CSS3</p>
+  </div>
+  <div style={{ marginRight: '40px', textAlign: 'center' }}>
+    <GrReactjs color="black" size="60px" />
+    <p>React</p>
+  </div>
+  <div style={{ marginRight: '40px', textAlign: 'center' }}>
+    <TbApi color="black" size="60px" />
+    <p>API</p>
+  </div>
+  <div style={{ marginRight: '40px', textAlign: 'center' }}>
+    <TbBrandNodejs color="black" size="60px" />
+    <p>Node.js</p>
+  </div>
+  <div style={{ marginRight: '40px', textAlign: 'center' }}>
+    <TbJson color="black" size="60px" />
+    <p>JSON</p>
+  </div>
+  <div style={{ marginRight: '40px', textAlign: 'center' }}>
+    <FaBootstrap color="black" size="60px" />
+    <p>Bootstrap</p>
+  </div>
+  <div style={{ marginRight: '40px', textAlign: 'center' }}>
+    <GrGrommet color="black" size="60px" />
+    <p>Grommet</p>
+  </div>
+</Container>
           </Container>
         </div>
       </div>

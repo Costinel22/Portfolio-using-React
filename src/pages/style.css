@@ -1,5 +1,5 @@
 #setName {
-    color: rgb(218, 203, 179);
+    color: rgb(249, 163, 24);
     margin-left: -26%;
 }
 
@@ -7,4 +7,9 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     color: rgb(54, 12, 151);
+}
+
+h4 a {
+    text-decoration: none;
+    color: rgb(132, 3, 3)
 }
