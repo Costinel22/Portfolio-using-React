@@ -15,7 +15,7 @@ function About() {
   return (
     <div>
       <Hero backgroundImage={myHero}>
-        <Container size="md-12 just sm-12">
+        <Container size="md-12 just ">
           <Row>
             <Col size="md-4 just">
               <h2 id="setName" >G Costinel Malaiasi</h2>
@@ -37,7 +37,7 @@ function About() {
         <div>
           <Container>
             <p>In the projects presented on the projects page, we have different technologies and languages used, for example!</p>
-            <Container direction="row" style={{ display: 'flex', flexDirection: 'row' }}>
+            <Container direction="row" style={{ display: 'flex' }} md-12  md-6 just>
   <div style={{ marginRight: '40px', textAlign: 'center' }}>
     <GrGithub color="black" size="60px" />
     <p>Github</p>
@@ -54,6 +54,8 @@ function About() {
     <GrReactjs color="black" size="60px" />
     <p>React</p>
   </div>
+  </Container>
+  <Container direction="row" style={{ display: 'flex' }} md-12  md-6 just>
   <div style={{ marginRight: '40px', textAlign: 'center' }}>
     <TbApi color="black" size="60px" />
     <p>API</p>
