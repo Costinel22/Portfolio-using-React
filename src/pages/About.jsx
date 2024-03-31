@@ -37,46 +37,48 @@ function About() {
         <div>
           <Container>
             <p>In the projects presented on the projects page, we have different technologies and languages used, for example!</p>
-            <Container direction="row" style={{ display: 'flex' }} md-12  md-6 just>
-  <div style={{ marginRight: '40px', textAlign: 'center' }}>
-    <GrGithub color="black" size="60px" />
-    <p>Github</p>
-  </div>
-  <div style={{ marginRight: '40px', textAlign: 'center' }}>
-    <GrHtml5 color="black" size="60px" />
-    <p>HTML5</p>
-  </div>
-  <div style={{ marginRight: '40px', textAlign: 'center' }}>
-    <GrCss3 color="black" size="60px" />
-    <p>CSS3</p>
-  </div>
-  <div style={{ marginRight: '40px', textAlign: 'center' }}>
-    <GrReactjs color="black" size="60px" />
-    <p>React</p>
-  </div>
-  </Container>
-  <Container direction="row" style={{ display: 'flex' }} md-12  md-6 just>
-  <div style={{ marginRight: '40px', textAlign: 'center' }}>
-    <TbApi color="black" size="60px" />
-    <p>API</p>
-  </div>
-  <div style={{ marginRight: '40px', textAlign: 'center' }}>
-    <TbBrandNodejs color="black" size="60px" />
-    <p>Node.js</p>
-  </div>
-  <div style={{ marginRight: '40px', textAlign: 'center' }}>
-    <TbJson color="black" size="60px" />
-    <p>JSON</p>
-  </div>
-  <div style={{ marginRight: '40px', textAlign: 'center' }}>
-    <FaBootstrap color="black" size="60px" />
-    <p>Bootstrap</p>
-  </div>
-  <div style={{ marginRight: '40px', textAlign: 'center' }}>
-    <GrGrommet color="black" size="60px" />
-    <p>Grommet</p>
-  </div>
-</Container>
+            <Container direction="row" style={{ display: 'flex' }} md-12 md-6 just>
+              <div style={{ marginRight: '40px', textAlign: 'center' }}>
+                <GrGithub color="black" size="50px" />
+                <p>Github</p>
+              </div>
+              <div style={{ marginRight: '40px', textAlign: 'center' }}>
+                <GrHtml5 color="black" size="50px" />
+                <p>HTML5</p>
+              </div>
+              <div style={{ marginRight: '40px', textAlign: 'center' }}>
+                <GrCss3 color="black" size="50px" />
+                <p>CSS3</p>
+              </div>
+              <div style={{ marginRight: '40px', textAlign: 'center' }}>
+                <GrReactjs color="black" size="50px" />
+                <p>React</p>
+              </div>
+            </Container>
+            <Container direction="row" style={{ display: 'flex' }} md-12 md-6 just>
+              <div style={{ marginRight: '40px', textAlign: 'center' }}>
+                <TbApi color="black" size="50px" />
+                <p>API</p>
+              </div>
+              <div style={{ marginRight: '40px', textAlign: 'center' }}>
+                <TbBrandNodejs color="black" size="50px" />
+                <p>Node.js</p>
+              </div>
+              <div style={{ marginRight: '40px', textAlign: 'center' }}>
+                <TbJson color="black" size="50px" />
+                <p>JSON</p>
+              </div>
+              <div style={{ marginRight: '40px', textAlign: 'center' }}>
+                <FaBootstrap color="black" size="50px" />
+                <p>Bootstrap</p>
+              </div>
+            </Container>
+            <Container direction="row" style={{ display: 'flex' }} md-12 md-6 just>
+              <div style={{ marginRight: '40px', textAlign: 'center' }}>
+                <GrGrommet color="black" size="50px" />
+                <p>Grommet</p>
+              </div>
+            </Container>
           </Container>
         </div>
       </div>
