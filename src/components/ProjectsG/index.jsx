@@ -2,7 +2,8 @@
 import Container from "../Container";
 import "./style.css";
 import React, { useEffect, useState } from 'react';
-import dataS from "../../../data.json"
+import dataS from "../../../data.json";
+import Row from "../Row";
 
 
 function Projects() {
@@ -21,13 +22,13 @@ function Projects() {
   }, []);
   
   return (
-      <div >
+      <Row col-md-6>
         <Container style={{}}>
           {data.map((item, index) => (
-        <div key={index}>
+        <Row key={index}>
             <h2 style={{color:"black"}}>{item.name}</h2>
             <div>
-            <img src={item.image} alt={item.name} style={{width:240 ,color:"black"}}/>
+            <img src={item.image} alt={item.name} style={{width:340 ,color:"black"}}/>
           </div>  
             <ul>
               <li>
@@ -38,10 +39,10 @@ function Projects() {
               </li>
             </ul>
           <br />  
-        </div>
+        </Row>
       ))}
         </Container>
-      </div>
+      </Row>
   ); 
 }
   

@@ -1,11 +1,12 @@
 import React from "react";
 import "./style.css";
+import  Container  from "../Container";
 
 function Footer() {
   return (
     <footer className="footer">
       <span>Portfolio React 2024</span>
-      <div className="row designe">
+      <Container  style={{}}>
       <section>
       <ul>    
       <a href="https://www.linkedin.com/in/costinel-malaiasi-58510a249">Linkedin</a>
@@ -21,7 +22,7 @@ function Footer() {
       </ul>
       </section>
       
-      </div>
+      </Container>
     </footer>
   );
 }

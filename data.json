@@ -2,36 +2,48 @@
         "name": "Bootstrap-Portfolio",
         "URL": "https://costinel22.github.io/Bootstrap-Portfolio/",
         "gitHubURL": "https://github.com/Costinel22/Bootstrap-Portfolio",
-        "image": "../src/image/top-page.png"
+        "image": "../top-page.png"
     },
     {
         "name": "Console-Finances",
         "URL": "",
         "gitHubURL": "https://github.com/Costinel22/Console-Finances",
-        "image": "./avatar.jpg"
+        "image": "../demonstration.png"
     },
     {
         "name": "README-generator",
         "URL": "",
         "gitHubURL": "https://github.com/Costinel22/README-generator",
-        "image": "../src/image/coffe.jpg"
+        "image": "../readme-generator.png"
     },
     {
         "name": "Organised-work-day-scheduler",
         "URL": "https://costinel22.github.io/Organised-work-day-scheduler/",
         "gitHubURL": "https://github.com/Costinel22/Organised-work-day-scheduler",
-        "image": "../components/image/top-page.png"
+        "image": "../github-testing.png"
     },
     {
         "name": "Code-quiz-against-time",
         "URL": "https://costinel22.github.io/Code-quiz-against-time/",
         "gitHubURL": "https://github.com/Costinel22/Code-quiz-against-time",
-        "image": "../components/image/top-page.png"
+        "image": "../quiz.png"
     },
     {
         "name": "Generator-of-unique-passwords",
         "URL": "https://costinel22.github.io/Generator-of-unique-passwords/",
         "gitHubURL": "https://github.com/Costinel22/Generator-of-unique-passwords",
-        "image": "../components/image/top-page.png"
+        "image": "../generator-password.png"
+    },
+    {
+        "name": "RecipeHub",
+        "URL": "https://costinel22.github.io/RecipeHub/",
+        "gitHubURL": "https://github.com/Costinel22/RecipeHub",
+        "image": "../recipeHub.png"
+    },
+    {
+        "name": "Smart-pet-wallet",
+        "URL": "https://smart-pet-wallet.netlify.app/",
+        "gitHubURL": "https://github.com/Costinel22/Generator-of-unique-passwords",
+        "image": "../smart-walet.jpg"
     }
 ]
