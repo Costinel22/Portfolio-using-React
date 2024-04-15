@@ -5,7 +5,7 @@ import './style.css'
 import Row from '../components/Row'
 import Col from '../components/Col'
 import Container from '../components/Container';
-import myAvatar from '../image/avatar2.png';
+import myAvatar from '../image/OIG4.jpeg';
 import { GrGithub, GrHtml5, GrCss3, GrReactjs, GrGrommet } from "react-icons/gr";
 import { TbApi, TbBrandNodejs, TbJson } from "react-icons/tb";
 import { FaBootstrap } from "react-icons/fa";
