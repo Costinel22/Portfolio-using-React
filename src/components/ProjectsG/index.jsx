@@ -6,44 +6,56 @@ import dataS from "../../../data.json";
 import Row from "../Row";
 
 
+
 function Projects() {
   const [data, setData] = useState([]);
-  
-    // Store data to localStorage
+
+  // Store data to localStorage
   useEffect(() => {
-      localStorage.setItem('dataS', JSON.stringify(dataS));
+    localStorage.setItem('dataS', JSON.stringify(dataS));
   }, []);
-  
-    // Retrieve data from localStorage
+
+  // Retrieve data from localStorage
   useEffect(() => {
-      const retrievedData = localStorage.getItem('dataS');
-      const parsedData = JSON.parse(retrievedData);
-      setData(parsedData);
+    const retrievedData = localStorage.getItem('dataS');
+    const parsedData = JSON.parse(retrievedData);
+    setData(parsedData);
   }, []);
-  
+
   return (
-      <Row col-md-6>
-        <Container style={{}}>
-          {data.map((item, index) => (
-        <Row key={index}>
-            <h2 style={{color:"black"}}>{item.name}</h2>
+    <section className="bigBox" >
+    <Row col-md-6 >
+      <Container style={{}}>
+        <div >
+        {data.map((item, index) => (
+          <Row key={index}>
+            <h2 style={{ color: "black" }}>{item.name}</h2>
             <div>
-            <img src={item.image} alt={item.name} style={{width:340 ,color:"black"}}/>
-          </div>  
+              <img src={item.image} alt={item.name} style={{ width: 340, color: "black" }} />
+            </div>
+            <div style={{width: 360 }}>
+              <p>{item.description}</p>
+            </div>
             <ul>
               <li>
-                  <a href={item.URL}>Project Link</a>
+                <a href={item.URL}>Project Link</a>
               </li>
               <li>
-                  <a href={item.gitHubURL}>GitHub Link</a>
+                <a href={item.gitHubURL}>GitHub Link</a>
               </li>
             </ul>
-          <br />  
-        </Row>
-      ))}
-        </Container>
-      </Row>
-  ); 
+            <br />
+            <br />
+            <br />
+            <br />
+          </Row>
+        ))}
+        </div>
+      </Container>
+     </Row>
+     <br />
+    </section>
+  );
 }
-  
+
 export default Projects;

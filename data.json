@@ -2,7 +2,8 @@
         "name": "Bootstrap-Portfolio",
         "URL": "https://costinel22.github.io/Bootstrap-Portfolio/",
         "gitHubURL": "https://github.com/Costinel22/Bootstrap-Portfolio",
-        "image": "../top-page.png"
+        "image": "../top-page.png",
+        "description": "This Portfolio is built only in an attempt to implement some elements from the botstrap library."
     },
     {
         "name": "Console-Finances",
