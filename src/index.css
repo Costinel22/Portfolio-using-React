@@ -10,7 +10,8 @@ div[data-reactroot] {
     height: 100%;
     padding: 0;
     margin: 0;
-    background-image: url('../src/image/back.jpg');
+    /* background-image: url('../src/image/back.jpg'); */
+    background-color: rgb(231, 134, 8);
     background-size: cover;
     height: '100vh',
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import  Container  from "../Container";
+import PageViewCounter from "../PageViewCounter";
 
 function Footer() {
   return (
@@ -21,7 +22,9 @@ function Footer() {
       <a href="tel:+1234567890">Call Uk: +1 234-567-890</a>
       </ul>
       </section>
-      
+      <section>
+        <PageViewCounter />
+      </section>
       </Container>
     </footer>
   );
