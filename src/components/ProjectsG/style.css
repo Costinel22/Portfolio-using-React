@@ -1,7 +1,7 @@
 .projects {
     min-height: 100px;
     background: #7da87e;
-    position: relative;
+    /* position: relative; */
 }
 
 .projects span {
@@ -19,7 +19,7 @@ h2 {
 }
 
 .bigBox {
-    background-color: #eef4f5;
-    width: 390px;
-    margin: 10px;
+    background-color: #d2d9db;
+    width: 360px;
+    margin: 1px;
 }
