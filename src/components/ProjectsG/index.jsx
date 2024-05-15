@@ -24,25 +24,25 @@ function Projects() {
   }, []);
 
   return (
-    <section style={{ justifyContent: "space-between", width: 360 }}>
+    <section style={{ justifyContent: "space-between", width: 404 }}>
       <Container style={{ margin: 20 }}>
         <Row style={{ justifyContent: "space-between" }}>
           {data.map((item, index) => (
-            <Col md={6} style={{ margin: 20 }} key={index} >
+            <Col md={4} style={{ margin: 20 }} key={index}>
               <div className="bigBox">
                 <h2 style={{ color: "black", margin: 5 }}>{item.name}</h2>
                 <div>
-                  <img src={item.image} alt={item.name} style={{ width: 340, color: "black", margin: 6}} />
+                  <img src={item.image} alt={item.name} style={{ width: 340, color: "black", margin: 6 }} />
                 </div>
                 <div style={{ width: 340 }}>
-                  <p style={{ color: "black" , margin: 6}}>{item.description}</p>
+                  <p style={{ color: "black", margin: 6 }}>{item.description}</p>
                 </div>
                 <ul>
                   <li>
                     <a href={item.URL} style={{ margin: 5 }}>Project Link</a>
                   </li>
                   <li>
-                    <a href={item.gitHubURL } style={{ margin: 5 }}>GitHub Link</a>
+                    <a href={item.gitHubURL} style={{ margin: 5 }}>GitHub Link</a>
                   </li>
                 </ul>
               </div>

@@ -9,42 +9,49 @@
         "name": "Console-Finances",
         "URL": "",
         "gitHubURL": "https://github.com/Costinel22/Console-Finances",
-        "image": "../demonstration.png"
+        "image": "../demonstration.png",
+        "description": ""
     },
     {
         "name": "README-generator",
         "URL": "",
         "gitHubURL": "https://github.com/Costinel22/README-generator",
-        "image": "../readme-generator.png"
+        "image": "../readme-generator.png",
+        "description": ""
     },
     {
         "name": "Organised-work-day-scheduler",
         "URL": "https://costinel22.github.io/Organised-work-day-scheduler/",
         "gitHubURL": "https://github.com/Costinel22/Organised-work-day-scheduler",
-        "image": "../github-testing.png"
+        "image": "../github-testing.png",
+        "description": ""
     },
     {
         "name": "Code-quiz-against-time",
         "URL": "https://costinel22.github.io/Code-quiz-against-time/",
         "gitHubURL": "https://github.com/Costinel22/Code-quiz-against-time",
-        "image": "../quiz.png"
+        "image": "../quiz.png",
+        "description": ""
     },
     {
         "name": "Generator-of-unique-passwords",
         "URL": "https://costinel22.github.io/Generator-of-unique-passwords/",
         "gitHubURL": "https://github.com/Costinel22/Generator-of-unique-passwords",
-        "image": "../generator-password.png"
+        "image": "../generator-password.png",
+        "description": ""
     },
     {
         "name": "RecipeHub",
         "URL": "https://costinel22.github.io/RecipeHub/",
         "gitHubURL": "https://github.com/Costinel22/RecipeHub",
-        "image": "../recipeHub.png"
+        "image": "../recipeHub.png",
+        "description": ""
     },
     {
         "name": "Smart-pet-wallet",
         "URL": "https://smart-pet-wallet.netlify.app/",
         "gitHubURL": "https://github.com/Costinel22/Generator-of-unique-passwords",
-        "image": "../smart-walet.jpg"
+        "image": "../smart-walet.jpg",
+        "description": ""
     }
 ]
