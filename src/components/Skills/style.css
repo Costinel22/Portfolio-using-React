@@ -6,3 +6,9 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(6, 0, 14);
 }
+
+span {
+    font-size: x-large;
+    color: rgb(5, 0, 0);
+    font-weight: 200;
+}
