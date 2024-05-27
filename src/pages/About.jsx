@@ -9,25 +9,32 @@ import myAvatar from '../image/OIG4.jpeg';
 import { GrGithub, GrHtml5, GrCss3, GrReactjs, GrGrommet } from "react-icons/gr";
 import { TbApi, TbBrandNodejs, TbJson } from "react-icons/tb";
 import { FaBootstrap } from "react-icons/fa";
-
+import ideo from '../assets/forest-car.mov'
 
 function About() {
   return (
     <div>
-      <Hero backgroundImage={myHero}>
-        <Container size="md-12 just ">
-          <Row>
-            <Col size="md-4 just">
-              <h2 id="setName" >G Costinel Malaiasi</h2>
+      <div className="hero text-center" >
+        <div className="overlay"> </div>
+        <video src={ideo} autoPlay loop muted />
+        <div className="content">
+          <Container size="md-12 just ">
+            <Row>
+              <Col size="md-4 just">
+                <h2 id="setName" >G Costinel Malaiasi</h2>
+                
+              </Col>
+              <Col size="md-4 just">
               <h4><a href="https://www.linkedin.com/in/costinel-malaiasi-58510a249">Linkedin</a></h4>
-              <h4><a href="https://github.com/Costinel22">GitHub</a></h4>
-            </Col>
-            <Col size="md-4 just">
-              <img src={myAvatar} alt="My Image avatar" style={{ marginTop: '10%', width: '70%', maxWidth: 200 }} />
-            </Col>
-          </Row>
-        </Container>
-      </Hero>
+                <h4><a href="https://github.com/Costinel22">GitHub</a></h4>
+              </Col>
+              <Col size="md-4 just">
+                <img src={myAvatar} alt="My Image avatar" style={{ marginTop: '10%', width: '70%', maxWidth: 200, opacity: 0.5 }} />
+              </Col>
+            </Row>
+          </Container>
+        </div>
+      </div>
       <div className="details-container">
         <Container>
           <h3>Details</h3>
