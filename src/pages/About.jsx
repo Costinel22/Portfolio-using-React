@@ -22,10 +22,9 @@ function About() {
             <Row>
               <Col size="md-4 just">
                 <h2 id="setName" >G Costinel Malaiasi</h2>
-                
               </Col>
               <Col size="md-4 just">
-              <h4><a href="https://www.linkedin.com/in/costinel-malaiasi-58510a249">Linkedin</a></h4>
+                <h4><a href="https://www.linkedin.com/in/costinel-malaiasi-58510a249">Linkedin</a></h4>
                 <h4><a href="https://github.com/Costinel22">GitHub</a></h4>
               </Col>
               <Col size="md-4 just">

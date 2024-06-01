@@ -1,10 +1,11 @@
 
-import Container from "../Container";
+// import Container from "../Container";
 import "./style.css";
 import React, { useEffect, useState } from 'react';
 import dataS from "../../../data.json";
-import Row from "../Row";
-import Col from "../Col";
+// import Row from "../Row";
+// import Col from "../Col";
+import { Container, Row, Col } from 'react-bootstrap';
 
 
 
@@ -24,11 +25,10 @@ function Projects() {
   }, []);
 
   return (
-    <section style={{ justifyContent: "space-between", width: 404 }}>
-      <Container style={{ margin: 20 }}>
+      <Container  style={{ margin: 20, padding: 2 }}>
         <Row style={{ justifyContent: "space-between" }}>
           {data.map((item, index) => (
-            <Col md={4} style={{ margin: 20 }} key={index}>
+            <Col md={3} style={{ margin: 20 }} key={index}>
               <div className="bigBox">
                 <h2 style={{ color: "black", margin: 5 }}>{item.name}</h2>
                 <div>
@@ -50,7 +50,6 @@ function Projects() {
           ))}
         </Row>
       </Container>
-    </section>
   );
 }
 
