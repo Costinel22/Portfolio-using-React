@@ -17,7 +17,7 @@ function App() {
     <Router>
       <div>
       <Navbar />
-        {/* <Wrapper>   */}
+        <Wrapper>  
         {/* <About />   */}
           <Routes>
             <Route path="/" element={<About/>} />
@@ -27,7 +27,7 @@ function App() {
             <Route path="/cv" element={<CV/>} />
             <Route path="/skills" element={<Skills/>} />
           </Routes>
-        {/* </Wrapper> */}
+        </Wrapper>
         <Footer />
       </div>
     </Router>
