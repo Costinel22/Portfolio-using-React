@@ -1,6 +1,6 @@
 import React from 'react';
 import Hero from '../components/Hero';
-import myHero from '../image/herro2.jpg'
+
 import './style.css'
 import Row from '../components/Row'
 import Col from '../components/Col'
@@ -14,7 +14,7 @@ import ideo from '../assets/forest-car.mov'
 function About() {
   return (
     <div>
-      <div className="hero text-center" >
+      <Hero >
         <div className="overlay"> </div>
         <video src={ideo} autoPlay loop muted />
         <div className="content">
@@ -33,7 +33,7 @@ function About() {
             </Row>
           </Container>
         </div>
-      </div>
+      </Hero>
       <div className="details-container">
         <Container>
           <h3>Details</h3>

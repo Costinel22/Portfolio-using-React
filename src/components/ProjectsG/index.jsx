@@ -1,10 +1,6 @@
-
-// import Container from "../Container";
 import "./style.css";
 import React, { useEffect, useState } from 'react';
 import dataS from "../../../data.json";
-// import Row from "../Row";
-// import Col from "../Col";
 import { Container, Row, Col } from 'react-bootstrap';
 
 
@@ -26,7 +22,7 @@ function Projects() {
 
   return (
       <Container style={{ margin: 10, padding: 1 }}>
-        <Row lg={12} md={12} sm={8} style={{ justifyContent: "space-between" }}>
+        <Row lg={12} md={12} sm={8} style={{ justifyContent: "space-between", alignItems:"center"}}>
           {data.map((item, index) => (
             <Col style={{ margin: 10 }} key={index}>
               <div className="bigBox">
