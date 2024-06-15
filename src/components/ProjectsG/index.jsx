@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 
 
+
 function Projects() {
   const [data, setData] = useState([]);
 
@@ -21,8 +22,8 @@ function Projects() {
   }, []);
 
   return (
-      <Container style={{ margin: 10, padding: 1 }}>
-        <Row lg={12} md={12} sm={8} style={{ justifyContent: "space-between", alignItems:"center"}}>
+      <Container >
+        <Row lg={12} md={12} sm={8} className="project-g">
           {data.map((item, index) => (
             <Col style={{ margin: 10 }} key={index}>
               <div className="bigBox">
