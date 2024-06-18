@@ -13,12 +13,11 @@ import Skills from './components/Skills';
 
 function App() {
   return ( 
-    // <>
+    <>
     <Router>
       <div>
       <Navbar />
         <Wrapper>  
-        {/* <About />   */}
           <Routes>
             <Route path="/" element={<About/>} />
             <Route path="/about" element={<About/>} />
@@ -31,7 +30,7 @@ function App() {
         <Footer />
       </div>
     </Router>
-    // </> 
+    </> 
   );
 }
 

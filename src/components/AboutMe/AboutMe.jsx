@@ -3,6 +3,7 @@ import Container from '../Container';
 import Row from '../Row';
 import Col from '../Col';
 import myAvatar from '../../image/me.jpg';
+import "./style.css"
 
 function AboutMe() {
   return (

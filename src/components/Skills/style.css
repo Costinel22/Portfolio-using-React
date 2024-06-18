@@ -9,6 +9,10 @@
 
 span {
     font-size: x-large;
-    color: rgb(5, 0, 0);
+    color: rgb(250, 247, 247);
     font-weight: 200;
+}
+
+li {
+    color: aliceblue;
 }

@@ -16,7 +16,7 @@ function About() {
     <div>
       <Hero >
         <div className="overlay"> </div>
-        <video src={ideo} autoPlay loop muted />
+        <video src={ideo} autoPlay loop muted style={{ opacity: 0.3 }}/>
         <div className="content">
           <Container size="md-12 just ">
             <Row>
@@ -36,7 +36,7 @@ function About() {
       </Hero>
       <div className="details-container">
         <Container>
-          <h3>Details</h3>
+          <h4>Details</h4>
           <p>Hello, I am very happy about your visit to this portfolio, even if it is only at the beginning of the road, just like me, it will become very consistent over time.</p>
           <p>At first it will include only a few recent projects from Front End Web Development, but over time projects from different fields will be included, such as AI and Robotics.</p>
         </Container>
@@ -45,43 +45,43 @@ function About() {
             <p>In the projects presented on the projects page, we have different technologies and languages used, for example!</p>
             <Container direction="row" style={{ display: 'flex' }} md-12 md-6 just>
               <div style={{ marginRight: '40px', textAlign: 'center' }}>
-                <GrGithub color="black" size="50px" />
+                <GrGithub color="white" size="50px" />
                 <p>Github</p>
               </div>
               <div style={{ marginRight: '40px', textAlign: 'center' }}>
-                <GrHtml5 color="black" size="50px" />
+                <GrHtml5 color="red" size="50px" />
                 <p>HTML5</p>
               </div>
               <div style={{ marginRight: '40px', textAlign: 'center' }}>
-                <GrCss3 color="black" size="50px" />
+                <GrCss3 color="orange" size="50px" />
                 <p>CSS3</p>
               </div>
               <div style={{ marginRight: '40px', textAlign: 'center' }}>
-                <GrReactjs color="black" size="50px" />
+                <GrReactjs color="green" size="50px" />
                 <p>React</p>
               </div>
             </Container>
             <Container direction="row" style={{ display: 'flex' }} md-12 md-6 just>
               <div style={{ marginRight: '40px', textAlign: 'center' }}>
-                <TbApi color="black" size="50px" />
+                <TbApi color="White" size="50px" />
                 <p>API</p>
               </div>
               <div style={{ marginRight: '40px', textAlign: 'center' }}>
-                <TbBrandNodejs color="black" size="50px" />
+                <TbBrandNodejs color="red" size="50px" />
                 <p>Node.js</p>
               </div>
               <div style={{ marginRight: '40px', textAlign: 'center' }}>
-                <TbJson color="black" size="50px" />
+                <TbJson color="orange" size="50px" />
                 <p>JSON</p>
               </div>
               <div style={{ marginRight: '40px', textAlign: 'center' }}>
-                <FaBootstrap color="black" size="50px" />
+                <FaBootstrap color="green" size="50px" />
                 <p>Bootstrap</p>
               </div>
             </Container>
             <Container direction="row" style={{ display: 'flex' }} md-12 md-6 just>
               <div style={{ marginRight: '40px', textAlign: 'center' }}>
-                <GrGrommet color="black" size="50px" />
+                <GrGrommet color="white" size="50px" />
                 <p>Grommet</p>
               </div>
             </Container>
