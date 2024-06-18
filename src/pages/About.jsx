@@ -36,7 +36,7 @@ function About() {
       </Hero>
       <div className="details-container">
         <Container>
-          <h4>Details</h4>
+          <h4 style={{color:'white'}}>Details</h4>
           <p>Hello, I am very happy about your visit to this portfolio, even if it is only at the beginning of the road, just like me, it will become very consistent over time.</p>
           <p>At first it will include only a few recent projects from Front End Web Development, but over time projects from different fields will be included, such as AI and Robotics.</p>
         </Container>
