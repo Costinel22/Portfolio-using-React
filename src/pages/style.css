@@ -6,7 +6,7 @@
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
-    color: aliceblue;
+    color: rgb(229, 230, 221);
 }
 
 h4 h3 a {
@@ -37,3 +37,13 @@ video {
     align-items: center;
     color: white;
 }
+
+
+/* .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.81);
+} */

@@ -13,7 +13,7 @@ function AboutMe() {
           <Col size="md-6 just">
             <h1 style={{color:'white'}}>Hello, I am a Web Developer with JavaScript.</h1>
             <br />
-            <h4 style={{color:'white'}}>I like coding and recently I started studying web development using javascript plus different libraries, among these are bootstrap, jQuary, React and more. </h4>
+            <h5 style={{color:'white'}}>I like coding and recently I started studying web development using javascript plus different libraries, among these are bootstrap, jQuary, React and more. </h5>
           </Col>
           <Col size="md-6 just">
           <img src={myAvatar} alt="My Image avatar" style={{width:240}}/>
