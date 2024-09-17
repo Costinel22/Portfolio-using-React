@@ -15,7 +15,7 @@ const PresentationPage = () => {
                 <div className="content">
                     <Container size="md-12 just ">
                         <Col size="md-4 just">
-                            <h1 id="setName" >Andreea and Costinel Malaiasi</h1>
+                            <h1 id="setName" style={{color:'white'}} >Andreea and Costinel Malaiasi</h1>
                         </Col>
 
                     </Container>
