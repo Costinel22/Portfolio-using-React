@@ -8,6 +8,7 @@ import Wrapper from './components/Wrapper';
 import Projects from './components/ProjectsG';
 import AboutMe from './components/AboutMe/AboutMe';
 import Skills from './components/Skills';
+import ProjectAgritek from './components/PtojectAgritek';
 
 
 
@@ -25,6 +26,7 @@ function App() {
             <Route path="/projects" element={<Projects/>} />
             <Route path="/cv" element={<CV/>} />
             <Route path="/skills" element={<Skills/>} />
+            <Route path="/projectAgritek" element={<ProjectAgritek/>} />
           </Routes>
         </Wrapper>
         <Footer />
