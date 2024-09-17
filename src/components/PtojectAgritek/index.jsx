@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Hero from '../Hero/index.jsx';
 import picture1 from "../../../public/picture11.png"
 import picture2 from "../../../public/picture4.png"
+import picture3 from "../../../public/picture2.png"
 
 
 const PresentationPage = () => {
@@ -15,7 +16,7 @@ const PresentationPage = () => {
                 <div className="content">
                     <Container size="md-12 just ">
                         <Col size="md-4 just">
-                            <h1 id="setName" style={{color:'white'}} >Andreea and Costinel Malaiasi</h1>
+                            <h2 id="setName" style={{color:'white'}} >Andreea and Costinel Malaiasi</h2>
                         </Col>
 
                     </Container>
@@ -28,9 +29,10 @@ const PresentationPage = () => {
                         <section className="slide">
                             <h1>Agritek Warehouse Presentation</h1>
                             <h2>Innovative Solutions for Agricultural Stock Management</h2>
-                            <img src="path/to/your/background-image1.jpg" alt="Modern Agricultural Warehouse" className="background-image" />
+                            <hr/>
+                            <img src={picture1} alt="Modern Agricultural Warehouse" className="background-image" />
                             <div className="presenter-info">
-                                <p>Presenter: [Your Name]</p>
+                                <p>Presenter: [Andreea and Costinel Malaiasi]</p>
                                 <p>Date: [Date of Presentation]</p>
                             </div>
                             <div className="call-to-actions">
@@ -129,7 +131,7 @@ const PresentationPage = () => {
                             <p><strong>Social and Economic Impact:</strong> Helps communities affected by drought or poor yields by ensuring access to resources at reasonable prices.</p>
                             <p><strong>Price Stabilization:</strong> Through inventory control and intelligent distribution, sudden price increases during crises can be avoided.</p>
                             <div className="economic-graphics">
-                                {/* Include an economic chart showing price fluctuations and how smart stocks stabilize the market */}
+                            <img src={picture3} alt="Agritek Team" className="company-image" />
                             </div>
                         </section>
 
