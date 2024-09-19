@@ -3,6 +3,11 @@
     color: #f3e378;
     padding: 20px;
     margin-top: 440px;
+    object-fit: fill;
+}
+
+.hero-design {
+    object-fit: fill;
 }
 
 .slide {

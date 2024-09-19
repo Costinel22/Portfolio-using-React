@@ -7,12 +7,13 @@ import picture2 from "../../../public/picture4.png"
 import picture3 from "../../../public/picture2.png"
 
 
+
 const PresentationPage = () => {
     return (
         <div>
             <Hero >
                 <div className="overlay"> </div>
-                <img src={picture1} alt="My image" style={{ opacity: 0.3 }} />
+                <img src={picture1} alt="My image" style={{ opacity: 0.3}} className='hero-design'/>
                 <div className="content">
                     <Container size="md-12 just ">
                         <Col size="md-4 just">
@@ -47,7 +48,6 @@ const PresentationPage = () => {
                             <h1>About Agritek</h1>
                             <p><strong>Mission:</strong> "At Agritek, we are dedicated to providing advanced solutions for inventory management and logistics in the agricultural sector to optimize processes and reduce costs."</p>
                             <p><strong>Vision:</strong> "To become global leaders in warehouse management solutions, promoting innovation and sustainability in the agricultural industry."</p>
-                            <p><strong>History:</strong> "Founded in 2010, Agritek has steadily evolved from a small local supplier of warehouse software solutions to a major player in the global market with clients in over 20 countries."</p>
                             <img src={picture2} alt="Agritek Team" className="company-image" />
                             <div className="roadmap">
                                 {/* Include a graphical representation of the company's evolution */}
